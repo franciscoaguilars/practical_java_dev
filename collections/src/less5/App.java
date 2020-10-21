@@ -14,7 +14,8 @@ public class App {
         // for (String word : dictionary.keySet()){
         //     System.out.println(dictionary.get(word));
         // }
-
+            
+        System.out.println(dictionary );
         for(Map.Entry<String, String> entry : dictionary.entrySet()){
             System.out.println(entry.getKey());
             System.out.println(entry.getValue());
